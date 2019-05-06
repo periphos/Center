@@ -11,33 +11,33 @@ int main(void) {
 
 	dice = rand() % 6 + 1;
 
-	printf("èoñ⁄ = %d \n", dice);
+	printf("dice = %d \n", dice);
 
 	if (dice % 3 == 0) {
 
-		printf("ë‹ = îí\n");
+		printf("bag = white\n");
 
 		balls = rand() % 2 ; 
 
 		if (balls == 0) {
-			printf("ã  = îí(%d)\n", balls);
+			printf("ball = white(%d)\n", balls);
 		}
 		else {
-			printf("ã  = ê‘(%d)\n", balls);
+			printf("ball = red(%d)\n", balls);
 		}
 
 	}
 	else {
 		
-		printf("ë‹ = ê‘\n");
+		printf("bag = red\n");
 
 		balls = rand() % 3;
 
 		if (balls == 0) {
-			printf("ã  = îí(%d)\n", balls);
+			printf("ball = white(%d)\n", balls);
 		}
 		else {
-			printf("ã  = ê‘(%d)\n", balls);
+			printf("ball = red(%d)\n", balls);
 		}
 	}
 
